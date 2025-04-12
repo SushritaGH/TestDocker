@@ -1,5 +1,22 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Ignore build and publish folders
+bin/
+obj/
 
-/.vs/DockerApp
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore test result files
+TestResults/
+*.trx
+
+# Ignore Rider files (if using JetBrains)
+.idea/
+
+# Ignore compiled DLLs
+*.dll
+*.pdb
+
+# Ignore sourcelink artifacts
+*.sourcelink.json
